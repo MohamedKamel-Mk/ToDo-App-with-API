@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>ToDo List With API</title>
+</head>
+<body>
+    <div class="w-75 m-auto shadow task-form p-4 my-5 rounded-4">
+        <input id="task-input" type="text" class="form-control my-3" placeholder="Type your task...">
+        <button id="btn" class="btn btn-primary">Add task</button>
+        <h4 class="text-center my-4 text-white">All Tasks</h4>
+        <div class="nb-spinner" id="loading"></div>
+        <div class="tasks text-white" id="tasks">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
